@@ -306,22 +306,18 @@ void glutWidget::render()
     glUseProgram(m_program);
     glBegin(GL_TRIANGLE_STRIP);
     
-    glColor3f(1,1,1);
     glTexCoord2f(0,1);
     glNormal3f(0,1,0);
     glVertex3f(-10,0,-10);
     
-    glColor3f(1,1,1);
     glTexCoord2f(0,0);
     glNormal3f(0,1,0);
     glVertex3f(-10,0,10);
     
-    glColor3f(1,1,1);
     glTexCoord2f(1,1);
     glNormal3f(0,1,0);
     glVertex3f(10,0,-10);
     
-    glColor3f(1,1,1);
     glTexCoord2f(1,0);
     glNormal3f(0,1,0);
     glVertex3f(10,0,10);
