@@ -1,0 +1,30 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+#Executables
+*.out
+*.x
+
+# Netbeans
+nbproject
+
+# Temp Files
+*~
+
+#cmake
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
